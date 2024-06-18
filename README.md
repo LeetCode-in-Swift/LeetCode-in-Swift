@@ -92,6 +92,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0021 |[Merge Two Sorted Lists](src/main/swift/g0001_0100/s0021_merge_two_sorted_lists/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 3 | 96.41
 
 #### Day 4 Linked List
 
@@ -170,6 +171,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0019 |[Remove Nth Node From End of List](src/main/swift/g0001_0100/s0019_remove_nth_node_from_end_of_list/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Big_O_Time_O(L)_Space_O(L) | 0 | 100.00
 
 #### Day 4 Linked List
 
@@ -225,6 +227,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0003 |[Longest Substring Without Repeating Characters](src/main/swift/g0001_0100/s0003_longest_substring_without_repeating_characters/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 8 | 93.40
 
 #### Day 15 Tree
 
@@ -262,11 +265,16 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0007 |[Reverse Integer](src/main/swift/g0001_0100/s0007_reverse_integer/Solution.swift)| Medium | Top_Interview_Questions, Math | 0 | 100.00
+| 0009 |[Palindrome Number](src/main/swift/g0001_0100/s0009_palindrome_number/Solution.swift)| Easy | Math | 12 | 94.81
 
 #### Udemy Strings
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0003 |[Longest Substring Without Repeating Characters](src/main/swift/g0001_0100/s0003_longest_substring_without_repeating_characters/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 8 | 93.40
+| 0020 |[Valid Parentheses](src/main/swift/g0001_0100/s0020_valid_parentheses/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0005 |[Longest Palindromic Substring](src/main/swift/g0001_0100/s0005_longest_palindromic_substring/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 10 | 97.20
 
 #### Udemy Binary Search
 
@@ -283,6 +291,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0015 |[3Sum](src/main/swift/g0001_0100/s0015_3sum/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 129 | 99.77
 
 #### Udemy Famous Algorithm
 
@@ -303,6 +312,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0021 |[Merge Two Sorted Lists](src/main/swift/g0001_0100/s0021_merge_two_sorted_lists/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 3 | 96.41
 
 #### Udemy Tree Stack Queue
 
@@ -323,11 +333,13 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0010 |[Regular Expression Matching](src/main/swift/g0001_0100/s0010_regular_expression_matching/Solution.swift)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Recursion, Big_O_Time_O(m\*n)_Space_O(m\*n) | 3 | 91.89
 
 #### Udemy Backtracking/Recursion
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0017 |[Letter Combinations of a Phone Number](src/main/swift/g0001_0100/s0017_letter_combinations_of_a_phone_number/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Big_O_Time_O(4^n)_Space_O(n) | 0 | 100.00
 
 #### Udemy Bit Manipulation
 
@@ -376,6 +388,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0021 |[Merge Two Sorted Lists](src/main/swift/g0001_0100/s0021_merge_two_sorted_lists/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 3 | 96.41
 
 #### Day 8 Linked List
 
@@ -386,6 +399,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0020 |[Valid Parentheses](src/main/swift/g0001_0100/s0020_valid_parentheses/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 
 #### Day 10 Tree
 
@@ -418,6 +432,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0015 |[3Sum](src/main/swift/g0001_0100/s0015_3sum/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 129 | 99.77
 
 #### Day 2 Array
 
@@ -458,11 +473,13 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0005 |[Longest Palindromic Substring](src/main/swift/g0001_0100/s0005_longest_palindromic_substring/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 10 | 97.20
 
 #### Day 10 Linked List
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0002 |[Add Two Numbers](src/main/swift/g0001_0100/s0002_add_two_numbers/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)) | 17 | 76.59
 
 #### Day 11 Linked List
 
@@ -545,11 +562,13 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0019 |[Remove Nth Node From End of List](src/main/swift/g0001_0100/s0019_remove_nth_node_from_end_of_list/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Big_O_Time_O(L)_Space_O(L) | 0 | 100.00
 
 #### Day 6 Sliding Window
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0003 |[Longest Substring Without Repeating Characters](src/main/swift/g0001_0100/s0003_longest_substring_without_repeating_characters/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 8 | 93.40
 
 #### Day 7 Breadth First Search Depth First Search
 
@@ -570,6 +589,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0021 |[Merge Two Sorted Lists](src/main/swift/g0001_0100/s0021_merge_two_sorted_lists/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 3 | 96.41
 
 #### Day 11 Recursion Backtracking
 
@@ -607,11 +627,13 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0015 |[3Sum](src/main/swift/g0001_0100/s0015_3sum/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 129 | 99.77
 
 #### Day 4 Two Pointers
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0011 |[Container With Most Water](src/main/swift/g0001_0100/s0011_container_with_most_water/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Greedy, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 204 | 98.62
 
 #### Day 5 Sliding Window
 
@@ -647,6 +669,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0017 |[Letter Combinations of a Phone Number](src/main/swift/g0001_0100/s0017_letter_combinations_of_a_phone_number/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Big_O_Time_O(4^n)_Space_O(n) | 0 | 100.00
 
 #### Day 12 Dynamic Programming
 
@@ -662,6 +685,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0005 |[Longest Palindromic Substring](src/main/swift/g0001_0100/s0005_longest_palindromic_substring/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 10 | 97.20
 
 #### Day 15 Dynamic Programming
 
@@ -948,6 +972,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0005 |[Longest Palindromic Substring](src/main/swift/g0001_0100/s0005_longest_palindromic_substring/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 10 | 97.20
 
 #### Day 18
 
@@ -1107,6 +1132,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0002 |[Add Two Numbers](src/main/swift/g0001_0100/s0002_add_two_numbers/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)) | 17 | 76.59
 
 #### Day 16
 
@@ -1209,6 +1235,21 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 0021 |[Merge Two Sorted Lists](src/main/swift/g0001_0100/s0021_merge_two_sorted_lists/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Data_Structure_I_Day_7_Linked_List, Algorithm_I_Day_10_Recursion_Backtracking, Level_1_Day_3_Linked_List, Udemy_Linked_List, Big_O_Time_O(m+n)_Space_O(m+n) | 3 | 96.41
+| 0020 |[Valid Parentheses](src/main/swift/g0001_0100/s0020_valid_parentheses/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Data_Structure_I_Day_9_Stack_Queue, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0019 |[Remove Nth Node From End of List](src/main/swift/g0001_0100/s0019_remove_nth_node_from_end_of_list/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Algorithm_I_Day_5_Two_Pointers, Level_2_Day_3_Linked_List, Big_O_Time_O(L)_Space_O(L) | 0 | 100.00
+| 0017 |[Letter Combinations of a Phone Number](src/main/swift/g0001_0100/s0017_letter_combinations_of_a_phone_number/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking, Udemy_Backtracking/Recursion, Big_O_Time_O(4^n)_Space_O(n) | 0 | 100.00
+| 0015 |[3Sum](src/main/swift/g0001_0100/s0015_3sum/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_1_Array, Algorithm_II_Day_3_Two_Pointers, Udemy_Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 129 | 99.77
+| 0011 |[Container With Most Water](src/main/swift/g0001_0100/s0011_container_with_most_water/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Greedy, Two_Pointers, Algorithm_II_Day_4_Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 204 | 98.62
+| 0010 |[Regular Expression Matching](src/main/swift/g0001_0100/s0010_regular_expression_matching/Solution.swift)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Recursion, Udemy_Dynamic_Programming, Big_O_Time_O(m\*n)_Space_O(m\*n) | 3 | 91.89
+| 0009 |[Palindrome Number](src/main/swift/g0001_0100/s0009_palindrome_number/Solution.swift)| Easy | Math, Udemy_Integers | 12 | 94.81
+| 0008 |[String to Integer (atoi)](src/main/swift/g0001_0100/s0008_string_to_integer_atoi/Solution.swift)| Medium | Top_Interview_Questions, String | 0 | 100.00
+| 0007 |[Reverse Integer](src/main/swift/g0001_0100/s0007_reverse_integer/Solution.swift)| Medium | Top_Interview_Questions, Math, Udemy_Integers | 0 | 100.00
+| 0006 |[Zigzag Conversion](src/main/swift/g0001_0100/s0006_zigzag_conversion/Solution.swift)| Medium | String | 2 | 99.60
+| 0005 |[Longest Palindromic Substring](src/main/swift/g0001_0100/s0005_longest_palindromic_substring/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Data_Structure_II_Day_9_String, Algorithm_II_Day_14_Dynamic_Programming, Dynamic_Programming_I_Day_17, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 10 | 97.20
+| 0004 |[Median of Two Sorted Arrays](src/main/swift/g0001_0100/s0004_median_of_two_sorted_arrays/Solution.swift)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Divide_and_Conquer, Big_O_Time_O(log(min(N,M)))_Space_O(1) | 26 | 94.07
+| 0003 |[Longest Substring Without Repeating Characters](src/main/swift/g0001_0100/s0003_longest_substring_without_repeating_characters/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Algorithm_I_Day_6_Sliding_Window, Level_2_Day_14_Sliding_Window/Two_Pointer, Udemy_Strings, Big_O_Time_O(n)_Space_O(1) | 8 | 93.40
+| 0002 |[Add Two Numbers](src/main/swift/g0001_0100/s0002_add_two_numbers/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Data_Structure_II_Day_10_Linked_List, Programming_Skills_II_Day_15, Big_O_Time_O(max(N,M))_Space_O(max(N,M)) | 17 | 76.59
 | 0001 |[Two Sum](src/main/swift/g0001_0100/s0001_two_sum/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Data_Structure_I_Day_2_Array, Level_1_Day_13_Hashmap, Udemy_Arrays, Big_O_Time_O(n)_Space_O(n) | 22 | 65.41
 
 ## Contributing
