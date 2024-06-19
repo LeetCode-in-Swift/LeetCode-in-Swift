@@ -1,34 +1,26 @@
-package g0001_0100.s0006_zigzag_conversion;
+// #Medium #String #2024_06_19_Time_26_ms_(72.18%)_Space_16.6_MB_(44.74%)
 
-// #Medium #String #2024_01_04_Time_2_ms_(99.60%)_Space_44.7_MB_(38.67%)
-
-public class Solution {
-    public String convert(String s, int numRows) {
-        int sLen = s.length();
-        if (numRows == 1) {
-            return s;
-        }
-        int maxDist = numRows * 2 - 2;
-        StringBuilder buf = new StringBuilder();
-        for (int i = 0; i < numRows; i++) {
-            int index = i;
-            if (i == 0 || i == numRows - 1) {
-                while (index < sLen) {
-                    buf.append(s.charAt(index));
-                    index += maxDist;
-                }
-            } else {
-                while (index < sLen) {
-                    buf.append(s.charAt(index));
-                    index += maxDist - i * 2;
-                    if (index >= sLen) {
-                        break;
+class Solution {
+    func convert(_ s: String, _ numRows: Int) -> String {
+        let arr = Array(s)
+        var result = ""
+        let shift = numRows > 1 ? (numRows - 1) * 2 : 1
+        var index = 0
+    
+        for row in 0..<numRows { // Step 1
+            index = row // Step 2
+            
+            while index < arr.count {
+                result.append(arr[index]) // Step 3
+                if row != 0 && row != numRows - 1 { // Step 4
+                    let diagonalIndex = index + (numRows - 1 - row) * 2
+                    if diagonalIndex < arr.count {
+                        result.append(arr[diagonalIndex])
                     }
-                    buf.append(s.charAt(index));
-                    index += i * 2;
                 }
+                index += shift // Step 5
             }
         }
-        return buf.toString();
+        return result
     }
 }

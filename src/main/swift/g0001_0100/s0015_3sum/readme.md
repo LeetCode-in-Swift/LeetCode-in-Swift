@@ -47,8 +47,7 @@ To solve the 3Sum problem in Swift using a `Solution` class, we'll follow these 
 Here's the implementation:
 
 ```swift
-class Solution {
-    
+class Solution {    
     func threeSum(_ nums: [Int]) -> [[Int]] {
         if nums.count < 3 { return [] }
         
