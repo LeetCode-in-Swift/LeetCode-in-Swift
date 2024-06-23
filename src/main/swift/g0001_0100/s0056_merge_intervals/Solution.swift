@@ -4,29 +4,28 @@
 
 class Solution {
     func merge(_ intervals: [[Int]]) -> [[Int]] {
-    guard intervals.count > 1 else { return intervals }
-    var intervals = intervals
-    intervals.sort{ a, b in 
-        a[0] < b[0]
-    }    
-    // print("int : \(intervals)")
-    var j = 0
-    var merged = [intervals[0]]
-    while j < intervals.count {
-        let first = merged.removeLast()
-        let second = intervals[j] 
-        if first[0] <= second[0] && first[1] >= second[1] {
-            merged.append([first[0], first[1]])
-        } else if second[0] <= first[0] && second[1] >= first[1] {
-            merged.append([second[0], second[1]]) 
-        } else if first[1] >= second[0] && first[0] <= second[0] {
-            merged.append([first[0], second[1]])
-        }  else {
-            merged.append(first)
-            merged.append(second)
+        guard intervals.count > 1 else { return intervals }
+        var intervals = intervals
+        intervals.sort{ a, b in 
+            a[0] < b[0]
         }
-        j += 1
+        var j = 0
+        var merged = [intervals[0]]
+        while j < intervals.count {
+            let first = merged.removeLast()
+            let second = intervals[j] 
+            if first[0] <= second[0] && first[1] >= second[1] {
+                merged.append([first[0], first[1]])
+            } else if second[0] <= first[0] && second[1] >= first[1] {
+                merged.append([second[0], second[1]]) 
+            } else if first[1] >= second[0] && first[0] <= second[0] {
+                merged.append([first[0], second[1]])
+            }  else {
+                merged.append(first)
+                merged.append(second)
+            }
+            j += 1
+        }
+        return merged
     }
-    return merged
-}
 }
