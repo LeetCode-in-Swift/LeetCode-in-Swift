@@ -38,7 +38,7 @@ To solve the "Merge Intervals" problem in Swift with the Solution class, follow 
 
 Here's the implementation of the `merge` method in Swift:
 
-```Swift
+```swift
 class Solution {
     func merge(_ intervals: [[Int]]) -> [[Int]] {
         guard intervals.count > 1 else { return intervals }
