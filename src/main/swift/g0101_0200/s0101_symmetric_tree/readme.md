@@ -40,7 +40,7 @@ To solve the "Symmetric Tree" problem in Swift with the Solution class, follow t
 Here's the implementation of the `isSymmetric` method in Swift:
 
 ```swift
-/*
+/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     public var val: Int

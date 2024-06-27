@@ -64,7 +64,7 @@ To solve the "Binary Tree Inorder Traversal" problem in Swift with the Solution 
 Here's the implementation of the `inorderTraversal` method in Swift:
 
 ```swift
-/*
+/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     public var val: Int

@@ -74,7 +74,7 @@ To solve the "Copy List with Random Pointer" problem in Swift with a `Solution` 
 Here's the Swift implementation:
 
 ```swift
-/*
+/**
  * Definition for a Node.
  * public class Node {
  *     public var val: Int
@@ -87,7 +87,6 @@ Here's the Swift implementation:
  *     }
  * }
  */
-
 class Solution {
     func copyRandomList(_ head: Node?) -> Node? {
         guard let head = head else {

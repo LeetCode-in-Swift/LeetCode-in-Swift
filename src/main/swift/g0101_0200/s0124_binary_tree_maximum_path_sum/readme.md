@@ -59,7 +59,7 @@ To solve the "Binary Tree Maximum Path Sum" problem in Swift with a `Solution` c
 Here's the Swift implementation:
 
 ```swift
-/*
+/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     public var val: Int

@@ -48,7 +48,7 @@ To solve the "Validate Binary Search Tree" problem in Swift with the Solution cl
 Here's the implementation of the `isValidBST` method in Swift:
 
 ```swift
-/*
+/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     public var val: Int
