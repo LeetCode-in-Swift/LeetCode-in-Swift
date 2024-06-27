@@ -13,7 +13,6 @@
  *     }
  * }
  */
-
 class Solution {
     func detectCycle(_ head: ListNode?) -> ListNode? {
         if head == nil || head?.next == nil {
@@ -41,7 +40,6 @@ class Solution {
             slow = slow?.next
             fast = fast?.next
         }
-
         return slow
     }
 }
