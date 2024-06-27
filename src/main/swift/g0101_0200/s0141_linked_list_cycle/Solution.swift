@@ -13,7 +13,6 @@
  *     }
  * }
  */
-
 class Solution {
     func hasCycle(_ head: ListNode?) -> Bool {
 
@@ -28,7 +27,6 @@ class Solution {
             return true
         }
        }
-
        return false 
     }
 }
