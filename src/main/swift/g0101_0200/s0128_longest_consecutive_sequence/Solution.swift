@@ -19,7 +19,6 @@ class Solution {
                 currentLen = 1
             }
         }
-
         return max(maxLen, currentLen)
     }
 }
