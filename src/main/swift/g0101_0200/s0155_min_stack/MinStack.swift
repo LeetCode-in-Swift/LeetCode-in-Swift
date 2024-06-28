@@ -44,7 +44,6 @@ class MinStack {
     }
 }
 
-
 /**
  * Your MinStack object will be instantiated and called as such:
  * let obj = MinStack()
