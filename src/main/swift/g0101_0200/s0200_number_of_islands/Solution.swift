@@ -3,7 +3,7 @@
 // #Level_1_Day_3_Linked_List #Udemy_Linked_List #Big_O_Time_O(N)_Space_O(1)
 // #2024_06_28_Time_4_ms_(89.47%)_Space_16_MB_(24.52%)
 
-/*
+/**
  * Definition for singly-linked list.
  * public class ListNode {
  *     public var val: Int
@@ -15,7 +15,6 @@
  */
 class Solution {
     func reverseList(_ head: ListNode?) -> ListNode? {
-
         var prev: ListNode? = nil
         var curr = head
         var next = head?.next
