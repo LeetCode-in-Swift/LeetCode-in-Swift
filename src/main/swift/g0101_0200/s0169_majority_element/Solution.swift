@@ -27,7 +27,6 @@ class Solution {
                 count += 1
             }
         }
-        
         return count >= (arr.count / 2) + 1 ? majority : -1
     }
 }
