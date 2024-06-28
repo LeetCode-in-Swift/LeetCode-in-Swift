@@ -22,7 +22,6 @@ class Solution {
         for i in 2..<nums.count {
             profit[i] = max(profit[i - 1], nums[i] + profit[i - 2])
         }
-        
         return profit[nums.count - 1]
     }
 }
