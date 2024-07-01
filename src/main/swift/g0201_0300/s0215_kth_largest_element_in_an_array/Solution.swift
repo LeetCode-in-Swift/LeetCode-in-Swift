@@ -8,4 +8,3 @@ class Solution {
         return sortedNums[sortedNums.count - k]
     }
 }
-
