@@ -4,19 +4,16 @@
 class Solution {
     func productExceptSelf(_ nums: [Int]) -> [Int] {
       var res = Array(repeating: 1, count: nums.count)
-      
       var pre = 1
       for i in 0..<nums.count {
         res[i] *= pre
         pre *= nums[i]
       }
-      
       var post = 1
       for i in (0..<nums.count).reversed() {
         res[i] *= post
         post *= nums[i]
       }
-      
       return res
     }
 }
