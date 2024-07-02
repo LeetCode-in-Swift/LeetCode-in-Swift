@@ -40,4 +40,3 @@ class MedianFinder {
  * obj.addNum(num)
  * let ret_2: Double = obj.findMedian()
  */
- 
