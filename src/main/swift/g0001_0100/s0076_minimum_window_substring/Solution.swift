@@ -5,56 +5,56 @@
 class Solution {
     func minWindow(_ s: String, _ t: String) -> String {
         let sChars = Array(s)
-    let tChars = Array(t)
-    var tCount = [Character: Int]()
-    
-    // Store the count of each character in t
-    for char in tChars {
-        tCount[char, default: 0] += 1
-    }
-    
-    var windowStart = 0
-    var windowEnd = 0
-    var minWindowSize = Int.max
-    var minWindowStart = 0
-    var count = tChars.count
-    
-    while windowEnd < sChars.count {
-        let charEnd = sChars[windowEnd]
+        let tChars = Array(t)
+        var tCount = [Character: Int]()
         
-        // If the character at windowEnd is in t, decrease the count
-        if let charCount = tCount[charEnd] {
-            if charCount > 0 {
-                count -= 1
-            }
-            tCount[charEnd] = charCount - 1
+        // Store the count of each character in t
+        for char in tChars {
+            tCount[char, default: 0] += 1
         }
         
-        // Move windowStart to the right until all characters in t are included
-        while count == 0 {
-            let currentWindowSize = windowEnd - windowStart + 1
+        var windowStart = 0
+        var windowEnd = 0
+        var minWindowSize = Int.max
+        var minWindowStart = 0
+        var count = tChars.count
+        
+        while windowEnd < sChars.count {
+            let charEnd = sChars[windowEnd]
             
-            // Update the minimum window size and start position if necessary
-            if currentWindowSize < minWindowSize {
-                minWindowSize = currentWindowSize
-                minWindowStart = windowStart
-            }
-            
-            let charStart = sChars[windowStart]
-            
-            // If the character at windowStart is in t, increase the count
-            if let charCount = tCount[charStart] {
-                if charCount == 0 {
-                    count += 1
+            // If the character at windowEnd is in t, decrease the count
+            if let charCount = tCount[charEnd] {
+                if charCount > 0 {
+                    count -= 1
                 }
-                tCount[charStart] = charCount + 1
+                tCount[charEnd] = charCount - 1
             }
             
-            windowStart += 1
+            // Move windowStart to the right until all characters in t are included
+            while count == 0 {
+                let currentWindowSize = windowEnd - windowStart + 1
+                
+                // Update the minimum window size and start position if necessary
+                if currentWindowSize < minWindowSize {
+                    minWindowSize = currentWindowSize
+                    minWindowStart = windowStart
+                }
+                
+                let charStart = sChars[windowStart]
+                
+                // If the character at windowStart is in t, increase the count
+                if let charCount = tCount[charStart] {
+                    if charCount == 0 {
+                        count += 1
+                    }
+                    tCount[charStart] = charCount + 1
+                }
+                
+                windowStart += 1
+            }
+            
+            windowEnd += 1
         }
-        
-        windowEnd += 1
-    }
     
         // Return the minimum window substring or an empty string if not found
         if minWindowSize == Int.max {
