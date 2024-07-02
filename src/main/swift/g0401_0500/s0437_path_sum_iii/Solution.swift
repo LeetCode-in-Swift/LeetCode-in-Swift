@@ -1,7 +1,7 @@
 // #Medium #Depth_First_Search #Tree #Binary_Tree #Level_2_Day_7_Tree #Big_O_Time_O(n)_Space_O(n)
 // #2024_07_02_Time_13_ms_(94.74%)_Space_16.5_MB_(14.91%)
 
-/*
+/**
  * Definition for a binary tree node.
  * public class TreeNode {
  *     public var val: Int
@@ -38,9 +38,7 @@ class Solution {
             prefixSums[prefixSum, default: 0] -= 1
             prefixSum -= root.val
         }
-
         preOrderTraversal(root, &prefixSum, &prefixSums)
-
         return count
     }
 }
