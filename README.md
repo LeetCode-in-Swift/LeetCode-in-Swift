@@ -190,6 +190,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0416 |[Partition Equal Subset Sum](src/main/swift/g0401_0500/s0416_partition_equal_subset_sum/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 14 | 94.25
+| 0152 |[Maximum Product Subarray](src/main/swift/g0101_0200/s0152_maximum_product_subarray/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 3 | 95.89
 
 #### Day 14 Sliding Window/Two Pointer
 
@@ -348,6 +349,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0139 |[Word Break](src/main/swift/g0101_0200/s0139_word_break/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 3 | 95.73
+| 0152 |[Maximum Product Subarray](src/main/swift/g0101_0200/s0152_maximum_product_subarray/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 3 | 95.89
 | 0198 |[House Robber](src/main/swift/g0101_0200/s0198_house_robber/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0070 |[Climbing Stairs](src/main/swift/g0001_0100/s0070_climbing_stairs/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0064 |[Minimum Path Sum](src/main/swift/g0001_0100/s0064_minimum_path_sum/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 17 | 92.63
@@ -1010,6 +1012,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0152 |[Maximum Product Subarray](src/main/swift/g0101_0200/s0152_maximum_product_subarray/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 3 | 95.89
 
 #### Day 7
 
@@ -1428,6 +1431,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 | 0160 |[Intersection of Two Linked Lists](src/main/swift/g0101_0200/s0160_intersection_of_two_linked_lists/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Udemy_Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 102 | 88.82
 | 0155 |[Min Stack](src/main/swift/g0101_0200/s0155_min_stack/MinStack.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Data_Structure_II_Day_14_Stack_Queue, Programming_Skills_II_Day_18, Level_2_Day_16_Design, Udemy_Design, Big_O_Time_O(1)_Space_O(N) | 34 | 95.89
 | 0153 |[Find Minimum in Rotated Sorted Array](src/main/swift/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_II_Day_2_Binary_Search, Binary_Search_I_Day_12, Udemy_Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 3 | 95.89
+| 0152 |[Maximum Product Subarray](src/main/swift/g0101_0200/s0152_maximum_product_subarray/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Dynamic_Programming_I_Day_6, Level_2_Day_13_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 3 | 95.89
 | 0148 |[Sort List](src/main/swift/g0101_0200/s0148_sort_list/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Level_2_Day_4_Linked_List, Big_O_Time_O(log(N))_Space_O(log(N)) | 166 | 100.00
 | 0146 |[LRU Cache](src/main/swift/g0101_0200/s0146_lru_cache/LRUCache.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Udemy_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 673 | 99.77
 | 0142 |[Linked List Cycle II](src/main/swift/g0101_0200/s0142_linked_list_cycle_ii/Solution.swift)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_10_Linked_List, Level_1_Day_4_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 17 | 97.87
