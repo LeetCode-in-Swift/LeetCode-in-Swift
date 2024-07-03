@@ -1,25 +1,26 @@
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Dynamic_Programming
 // #Dynamic_Programming_I_Day_6 #Level_2_Day_13_Dynamic_Programming #Udemy_Dynamic_Programming
-// #Big_O_Time_O(N)_Space_O(1) #2024_07_03_Time_3_ms_(95.89%)_Space_15.5_MB_(81.96%)
+// #Big_O_Time_O(N)_Space_O(1) #2024_07_03_Time_10_ms_(70.10%)_Space_15.4_MB_(95.88%)
 
 class Solution {
     func maxProduct(_ nums: [Int]) -> Int {
-        guard !nums.isEmpty else { return 0 }
+        var left: Double = 1
+        var right: Double = 1
+        var j = nums.count - 1
+        var res: Double = Double(Int.min)
         
-        var maxProd = nums[0]
-        var currentMax = nums[0]
-        var currentMin = nums[0]
-        
-        for i in 1..<nums.count {
-            let tempMax = currentMax
-            let tempMin = currentMin
+        for i in 0..<nums.count {
+            if left == 0 { left = 1 }
+            if right == 0 { right = 1 }
             
-            currentMax = max(nums[i], max(tempMax * nums[i], tempMin * nums[i]))
-            currentMin = min(nums[i], min(tempMax * nums[i], tempMin * nums[i]))
+            left *= Double(nums[i])
+            right *= Double(nums[j])
             
-            maxProd = max(maxProd, currentMax)
+            j -= 1
+            
+            res = max(res, max(left, right))
         }
         
-        return maxProd
+        return Int(res)
     }
 }

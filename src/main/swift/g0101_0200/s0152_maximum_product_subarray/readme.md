@@ -30,58 +30,76 @@ A **subarray** is a contiguous subsequence of the array.
 *   `-10 <= nums[i] <= 10`
 *   The product of any prefix or suffix of `nums` is **guaranteed** to fit in a **32-bit** integer.
 
-To solve the problem of finding the maximum product subarray in Swift using a `Solution` class, follow these steps:
+To solve the "152. Maximum Product Subarray" problem in Swift using the provided `Solution` class:
 
-1. **Define the Solution Class**: Create a Swift class named `Solution` where you'll implement the solution.
+### Steps to Solve the Problem
 
-2. **Initialize the Function**: Inside the `Solution` class, define a function `maxProduct` that takes an array of integers (`nums`) as input and returns an integer representing the maximum product of any contiguous subarray.
+1. **Initialize Variables**:
+   - Create a variable `left` to keep track of the product of elements from the left.
+   - Create a variable `right` to keep track of the product of elements from the right.
+   - Initialize a variable `res` to store the maximum product found so far.
 
-3. **Edge Case Handling**: Check if the input array `nums` is empty or nil. If so, return 0 or handle accordingly based on the problem requirements.
+2. **Iterate Through the Array**:
+   - Use a loop to iterate through the array from the start to the end.
+   - Simultaneously iterate through the array from the end to the start.
 
-4. **Initialize Variables**:
-   - `maxProd`: This variable will track the maximum product found so far among all subarrays.
-   - `currentMax`: This variable will track the maximum product ending at the current position in the array.
-   - `currentMin`: This variable will track the minimum product ending at the current position in the array.
-   - Start with `maxProd` initialized to `nums[0]` because initially, the maximum product subarray might just be the first element.
+3. **Update Products**:
+   - For each iteration, update the `left` product by multiplying it with the current element from the left side.
+   - Update the `right` product by multiplying it with the current element from the right side.
 
-5. **Iterate Through Array**: Loop through the array starting from the second element (index 1):
-   - Update `currentMax` and `currentMin` based on whether the current element is positive or negative.
-   - Update `currentMax` by taking the maximum of `nums[i]`, `currentMax * nums[i]`, or `currentMin * nums[i]`.
-   - Update `currentMin` by taking the minimum of `nums[i]`, `currentMax * nums[i]`, or `currentMin * nums[i]`.
-   - Update `maxProd` to be the maximum of itself and `currentMax`.
+4. **Handle Zeros**:
+   - If the `left` product is zero, reset it to one to start a new subarray.
+   - Similarly, if the `right` product is zero, reset it to one to start a new subarray.
 
-6. **Return the Result**: After iterating through the array, `maxProd` will contain the maximum product of any contiguous subarray. Return `maxProd` as the result.
+5. **Update Maximum Product**:
+   - Update the `res` with the maximum value between `res`, `left`, and `right`.
 
-Here's how the Swift code implementation would look:
+6. **Return Result**:
+   - After completing the loop, return the maximum product found, converted to an integer.
+
+### Swift Solution
 
 ```swift
 class Solution {
     func maxProduct(_ nums: [Int]) -> Int {
-        guard !nums.isEmpty else { return 0 }
+        var left: Double = 1
+        var right: Double = 1
+        var j = nums.count - 1
+        var res: Double = Double(Int.min)
         
-        var maxProd = nums[0]
-        var currentMax = nums[0]
-        var currentMin = nums[0]
-        
-        for i in 1..<nums.count {
-            let tempMax = currentMax
-            let tempMin = currentMin
+        for i in 0..<nums.count {
+            if left == 0 { left = 1 }
+            if right == 0 { right = 1 }
             
-            currentMax = max(nums[i], max(tempMax * nums[i], tempMin * nums[i]))
-            currentMin = min(nums[i], min(tempMax * nums[i], tempMin * nums[i]))
+            left *= Double(nums[i])
+            right *= Double(nums[j])
             
-            maxProd = max(maxProd, currentMax)
+            j -= 1
+            
+            res = max(res, max(left, right))
         }
         
-        return maxProd
+        return Int(res)
     }
 }
 ```
 
-**Explanation of the Code**:
-- We use `currentMax` and `currentMin` to keep track of the maximum and minimum products of subarrays ending at the current element `nums[i]`.
-- `maxProd` is updated to store the maximum product found so far as we iterate through the array.
-- The `max()` and `min()` functions help in updating `currentMax` and `currentMin` respectively based on the current element and previous products.
-- Finally, `maxProd` holds the maximum product subarray found by the end of the loop, which is returned as the result.
+### Explanation of the Example Cases
 
-This implementation efficiently finds the maximum product subarray in O(n) time complexity, where n is the length of the `nums` array, which meets the problem's constraints effectively.
+- **Example 1**:
+  - **Input**: `nums = [2,3,-2,4]`
+  - The contiguous subarray `[2,3]` has the largest product `6`.
+  - **Output**: `6`
+
+- **Example 2**:
+  - **Input**: `nums = [-2,0,-1]`
+  - The maximum product subarray is `[0]` which has a product of `0`.
+  - **Output**: `0`
+
+### Constraints
+
+- `1 <= nums.length <= 2 * 10^4`
+- `-10 <= nums[i] <= 10`
+- The product of any prefix or suffix of `nums` is guaranteed to fit in a 32-bit integer.
+
+By following these steps and using the provided solution, you can solve the "152. Maximum Product Subarray" problem in Swift efficiently.
