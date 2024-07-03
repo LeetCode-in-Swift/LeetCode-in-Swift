@@ -153,6 +153,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0543 |[Diameter of Binary Tree](src/main/swift/g0501_0600/s0543_diameter_of_binary_tree/Solution.swift)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 17 | 97.62
 | 0437 |[Path Sum III](src/main/swift/g0401_0500/s0437_path_sum_iii/Solution.swift)| Medium | Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 13 | 94.74
 
 #### Day 8 Binary Search
@@ -326,6 +327,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0094 |[Binary Tree Inorder Traversal](src/main/swift/g0001_0100/s0094_binary_tree_inorder_traversal/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0102 |[Binary Tree Level Order Traversal](src/main/swift/g0101_0200/s0102_binary_tree_level_order_traversal/Solution.swift)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 7 | 93.85
+| 0543 |[Diameter of Binary Tree](src/main/swift/g0501_0600/s0543_diameter_of_binary_tree/Solution.swift)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 17 | 97.62
 | 0226 |[Invert Binary Tree](src/main/swift/g0201_0300/s0226_invert_binary_tree/Solution.swift)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0104 |[Maximum Depth of Binary Tree](src/main/swift/g0101_0200/s0104_maximum_depth_of_binary_tree/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 6 | 98.43
 | 0124 |[Binary Tree Maximum Path Sum](src/main/swift/g0101_0200/s0124_binary_tree_maximum_path_sum/Solution.swift)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 28 | 98.45
@@ -354,6 +356,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 | 0070 |[Climbing Stairs](src/main/swift/g0001_0100/s0070_climbing_stairs/Solution.swift)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0064 |[Minimum Path Sum](src/main/swift/g0001_0100/s0064_minimum_path_sum/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 17 | 92.63
 | 0300 |[Longest Increasing Subsequence](src/main/swift/g0201_0300/s0300_longest_increasing_subsequence/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Binary_Search, Big_O_Time_O(n\*log_n)_Space_O(n) | 8 | 100.00
+| 1143 |[Longest Common Subsequence](src/main/swift/g1101_1200/s1143_longest_common_subsequence/Solution.swift)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 12 | 98.60
 | 0072 |[Edit Distance](src/main/swift/g0001_0100/s0072_edit_distance/Solution.swift)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 9 | 77.98
 | 0010 |[Regular Expression Matching](src/main/swift/g0001_0100/s0010_regular_expression_matching/Solution.swift)| Hard | Top_Interview_Questions, String, Dynamic_Programming, Recursion, Big_O_Time_O(m\*n)_Space_O(m\*n) | 3 | 91.89
 
@@ -499,6 +502,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0238 |[Product of Array Except Self](src/main/swift/g0201_0300/s0238_product_of_array_except_self/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Prefix_Sum, Big_O_Time_O(n^2)_Space_O(n) | 150 | 91.75
+| 0560 |[Subarray Sum Equals K](src/main/swift/g0501_0600/s0560_subarray_sum_equals_k/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Big_O_Time_O(n)_Space_O(n) | 78 | 92.15
 
 #### Day 6 String
 
@@ -509,6 +513,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0763 |[Partition Labels](src/main/swift/g0701_0800/s0763_partition_labels/Solution.swift)| Medium | String, Hash_Table, Greedy, Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 2 | 100.00
 
 #### Day 8 String
 
@@ -781,6 +786,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 1143 |[Longest Common Subsequence](src/main/swift/g1101_1200/s1143_longest_common_subsequence/Solution.swift)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 12 | 98.60
 
 #### Day 18 Dynamic Programming
 
@@ -1087,6 +1093,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 1143 |[Longest Common Subsequence](src/main/swift/g1101_1200/s1143_longest_common_subsequence/Solution.swift)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 12 | 98.60
 | 0072 |[Edit Distance](src/main/swift/g0001_0100/s0072_edit_distance/Solution.swift)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 9 | 77.98
 
 #### Day 20
@@ -1195,6 +1202,7 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0739 |[Daily Temperatures](src/main/swift/g0701_0800/s0739_daily_temperatures/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(n) | 535 | 99.24
 
 #### Day 7
 
@@ -1401,6 +1409,13 @@ Swift-based LeetCode algorithm problem solutions, regularly updated.
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 1143 |[Longest Common Subsequence](src/main/swift/g1101_1200/s1143_longest_common_subsequence/Solution.swift)| Medium | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_17_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming, Big_O_Time_O(n\*m)_Space_O(n\*m) | 12 | 98.60
+| 0763 |[Partition Labels](src/main/swift/g0701_0800/s0763_partition_labels/Solution.swift)| Medium | String, Hash_Table, Greedy, Two_Pointers, Data_Structure_II_Day_7_String, Big_O_Time_O(n)_Space_O(1) | 2 | 100.00
+| 0739 |[Daily Temperatures](src/main/swift/g0701_0800/s0739_daily_temperatures/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Stack, Monotonic_Stack, Programming_Skills_II_Day_6, Big_O_Time_O(n)_Space_O(n) | 535 | 99.24
+| 0647 |[Palindromic Substrings](src/main/swift/g0601_0700/s0647_palindromic_substrings/Solution.swift)| Medium | String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n) | 0 | 100.00
+| 0560 |[Subarray Sum Equals K](src/main/swift/g0501_0600/s0560_subarray_sum_equals_k/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Data_Structure_II_Day_5_Array, Big_O_Time_O(n)_Space_O(n) | 78 | 92.15
+| 0543 |[Diameter of Binary Tree](src/main/swift/g0501_0600/s0543_diameter_of_binary_tree/Solution.swift)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Udemy_Tree_Stack_Queue, Big_O_Time_O(n)_Space_O(n) | 17 | 97.62
+| 0494 |[Target Sum](src/main/swift/g0401_0500/s0494_target_sum/Solution.swift)| Medium | Array, Dynamic_Programming, Backtracking, Big_O_Time_O(n\*(sum+s))_Space_O(n\*(sum+s)) | 0 | 100.00
 | 0438 |[Find All Anagrams in a String](src/main/swift/g0401_0500/s0438_find_all_anagrams_in_a_string/Solution.swift)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Programming_Skills_II_Day_12, Level_1_Day_12_Sliding_Window/Two_Pointer, Big_O_Time_O(n+m)_Space_O(1) | 30 | 97.24
 | 0437 |[Path Sum III](src/main/swift/g0401_0500/s0437_path_sum_iii/Solution.swift)| Medium | Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Big_O_Time_O(n)_Space_O(n) | 13 | 94.74
 | 0416 |[Partition Equal Subset Sum](src/main/swift/g0401_0500/s0416_partition_equal_subset_sum/Solution.swift)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Level_2_Day_13_Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 14 | 94.25
